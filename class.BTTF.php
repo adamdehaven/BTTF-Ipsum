@@ -1,4 +1,4 @@
-<?php 
+<?php
 class BTTF
 {
 	private $source;
@@ -12,7 +12,7 @@ class BTTF
 	{
 		$this->filename = 'BTTF-script.txt';
 		$this->source = file($this->filename, FILE_IGNORE_NEW_LINES);
-		$this->eof = 3162-1; // Number of lines in BTTF-script.txt minus one = 733
+		$this->eof = 3162-1; // Number of lines in BTTF-script.txt minus one
 		$this->rand = rand(0, $this->eof); // Start at a random spot in the source array
 		$this->slice = array_slice($this->source, $this->rand);
 		$this->output = $output;
@@ -53,7 +53,7 @@ class BTTF
 ';
 			endfor;
 		}
-		
+
 		return trim($this->output);
 	}
 
