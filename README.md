@@ -15,7 +15,7 @@ Initiate the class and call the script where you'd like to generate the text:
 ```php
 $text = new BTTF; // Create new instance
 
-$text->generateParagraphs(
+$text->generate(
     3, // Number of paragraphs to generate (Optional, Default = 1)
     true, // Wrap paragraphs in HTML <p> tags (Optional, Default = true)
     5 // Number of sentences per paragraph (Optional, Default = 5)

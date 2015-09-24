@@ -33,9 +33,9 @@ if($tags):
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     </head>
     <body>
-        <?=$placeholder->generateParagraphs($par, $tags, $sen);?>
+        <?=$placeholder->generate($par, $tags, $sen);?>
     </body>
 </html>
 <? else:
-    echo $placeholder->generateParagraphs($par, $tags, $sen);
+    echo $placeholder->generate($par, $tags, $sen);
 endif; ?>

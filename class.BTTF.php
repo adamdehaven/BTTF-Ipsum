@@ -30,7 +30,7 @@ class BTTF
 		return $text;
 	}
 
-	public function generateParagraphs(
+	public function generate( // Paragraphs
 		$paragraphs = 1, // Number of paragraphs to generate
 		$html = true, // Wrap each paragraph in HTML <p> tag?
 		$sentences = 5 // Number of sentences per paragraph
