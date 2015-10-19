@@ -30,3 +30,5 @@ $text->generate(
 #### AlfredApp Workflow
 
 Simply download the repository and import the workflow (by double-clicking the package) into AlfredApp.
+
+![Workflow Screenshot](workflow-screenshot.png)
