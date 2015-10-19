@@ -2,7 +2,11 @@
 
 PHP Class to output a specified number of paragraphs with text from the "Back to the Future" trilogy.
 
+Also includes a workflow for [AlfredApp](http://alfredapp.com)
+
 ## Usage
+
+#### PHP Class
 
 Download the repo and save the `class.BTTF.php` and `BTTF-script.txt` files to your project.
 
@@ -22,3 +26,7 @@ $text->generate(
 );
 
 ```
+
+#### AlfredApp Workflow
+
+Simply download the repository and import the workflow (by double-clicking the package) into AlfredApp.
