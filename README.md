@@ -1,5 +1,7 @@
 # Back to the Future Ipsum
 
+[![GitHub release](https://img.shields.io/github/release/adamdehaven/BTTF-Ipsum.svg?maxAge=3600)](https://github.com/adamdehaven/Wallpapers-from-Unsplash/archive/master.zip) [![GitHub commits](https://img.shields.io/github/commits-since/adamdehaven/BTTF-Ipsum/v1.0.svg?maxAge=3600)](https://github.com/adamdehaven/BTTF-Ipsum/compare/v1.0...master) [![GitHub issues](https://img.shields.io/github/issues/adamdehaven/BTTF-Ipsum.svg?maxAge=3600)](https://github.com/adamdehaven/BTTF-Ipsum/issues) [![license](https://img.shields.io/github/license/adamdehaven/BTTF-Ipsum.svg?maxAge=3600)](https://raw.githubusercontent.com/adamdehaven/BTTF-Ipsum/master/LICENSE)
+
 PHP Class to output a specified number of paragraphs with text from the "Back to the Future" trilogy.
 
 Also includes a workflow for [AlfredApp](http://alfredapp.com)
